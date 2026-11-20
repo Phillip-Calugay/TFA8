@@ -4,7 +4,7 @@ Phillip E. Calugay · IT0049 · TC31
 
 TFA8 continues the Laravel TFA5–TFA7 POS: customer and user management now use complete resource controllers, and Laravel Breeze supplies registration, login, logout and password management. All customer and user routes require authentication. Existing validated forms, staff roles and prepared avatars remain available.
 
-Repository: https://github.com/Phillip-Calugay/TFA7
+Repository: https://github.com/Phillip-Calugay/TFA8
 
 **Local application: http://127.0.0.1:8000**
 
@@ -26,8 +26,8 @@ The database in this working copy has already been migrated. Keep the existing `
 Requirements: PHP 8.2+, Composer, PDO SQLite, Fileinfo, Mbstring, Exif and GD. Dependencies are locked in `composer.lock`. Breeze Blade views use the existing local `public/css/pos.css`; running the application requires no Node build, CDN or external assets.
 
 ```bat
-git clone https://github.com/Phillip-Calugay/TFA7.git
-cd TFA7
+git clone https://github.com/Phillip-Calugay/TFA8.git
+cd TFA8
 composer install
 copy .env.example .env
 php artisan key:generate
